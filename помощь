@@ -1,0 +1,28 @@
+Установка реакта
+npm create vite@latest .
+>React
+>JavaScript
+npm i
+npm run dev (запустить проект)
+
+
+Установка taillwind (стили)
+Инструкция: https://tailwindcss.com/docs/guides/vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+Компоненты taillwind
+https://tailwindui.com/components
+
+Установко доп. библиотек для taillwind
+npm i @headlessui/react
+npm i @heroicons/react
+
+Установка SwiperJS (слайдер)
+npm i swiper
+
+Компоненты слайдеров
+https://swiperjs.com/demos
+
+Установка роутинга
+npm i react-router-dom 
