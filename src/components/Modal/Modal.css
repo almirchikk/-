@@ -1,0 +1,19 @@
+.modal{
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+    border-left: 1px solid ;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    display: none;
+}
+
+#close_modal{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,112 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .slide{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide1{
+    background: url('../../../public/slide1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slide2{
+    background: url('../../../public/slide2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slide3{
+    background: url('../../../public/slide3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slide4{
+    background: url('../../../public/slide4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.slide5{
+    background: url('../../../public/slide5.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+  
+.slide-text h1{
+  color: white;
+  font-size: 25px;
+  width: 400px;
+}
+
+.slide-text p{
+  color: white;
+  font-size: 20px;
+  width: 500px;
+}
+
+.slide-text a{
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.swiper-initialized{
+  border-radius: 15px;
+  width: 95%;
+}
